@@ -1,6 +1,6 @@
-name: action-trial
+name: actions-trial
 on: [push]
-job:
+jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
